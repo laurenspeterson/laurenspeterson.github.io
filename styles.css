@@ -1,17 +1,26 @@
 #top{
-  background-color:#a8adab;
+  background-color:#c4cac8;
   line-height:3em;
-  font-weight:bold;
   font-size:1.8em;
   text-align:left;
   padding-right:30px;
 }
 h1,h2{
   color:black;
-  font-family:"century gothic","ariel",sans-serif;
+  font-weight:bold;
+  font-family:"Century Gothic","Ariel",sans-serif;
   font-size:1.8em;
   margin-bottom:-15px;
 }
+
+#pic{
+  position:absolute;
+  top:0px;
+  margin-right:15px;
+  width:300px;
+  height:350px;
+}
+
 #main{
   text-align:left;
   width:48%;
@@ -29,7 +38,7 @@ h1,h2{
   text-align:center;
   color:white;
   font-weight:bold;
-  background-color:#30492d;
+  background-color:#233521;
   padding:20px;
   vertical-align:middle;
   border:solid thick #8c9267; 

@@ -24,8 +24,8 @@ h1,h2{
 }
 .right-column{
   position:absolute;
-  top:0px;
-  margin-right:15px;
+  top:10px;
+  right:15px;
 }
 
 .main{

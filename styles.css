@@ -13,7 +13,9 @@
   width:48%;
   flex: 1 0 15em;
   padding:10px;
+  color:black;
 }
+
 #bottom{
     
   display:flex;

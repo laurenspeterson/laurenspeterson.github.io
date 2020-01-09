@@ -1,10 +1,26 @@
+#top{
+  background-color:#2e3532;
+  line-height:3em;
+  font-weight:bold;
+  font-size:1.2em;
+  text-align:left;
+  padding-right:30px;
+}
+
+#main{
+  padding:13px; 
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: center;
+  align-items: center;
+}
 #bottom{
     
   display:flex;
   flex-flow:row wrap;
   flex-direction:column;
   justify-content:center;
-  text-align:left;
+  text-align:center;
   color:white;
   font-weight:bold;
   background-color:#41633c;

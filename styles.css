@@ -1,13 +1,17 @@
 #top{
-  background-color:#2e3532;
-  color:white;
+  background-color:#848886;
   line-height:3em;
   font-weight:bold;
   font-size:1.2em;
   text-align:left;
   padding-right:30px;
 }
-
+h1,h2{
+  color:#2b2b27;
+  font-family:"Pacifico","cursive",sans-serif;
+  font-size:1.8em;
+  margin-bottom:-15px;
+}
 #main{
   text-align:left;
   width:48%;
@@ -25,8 +29,8 @@
   text-align:center;
   color:white;
   font-weight:bold;
-  background-color:#41633c;
+  background-color:#30492d;
   padding:20px;
   vertical-align:middle;
-  border:solid thick #2e3532; 
+  border:solid thick #8c9267; 
 }

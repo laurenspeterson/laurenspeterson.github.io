@@ -1,14 +1,14 @@
 #top{
-  background-color:#848886;
+  background-color:#a8adab;
   line-height:3em;
   font-weight:bold;
-  font-size:1.2em;
+  font-size:1.8em;
   text-align:left;
   padding-right:30px;
 }
 h1,h2{
-  color:#2b2b27;
-  font-family:"Pacifico","cursive",sans-serif;
+  color:black;
+  font-family:"century gothic","ariel",sans-serif;
   font-size:1.8em;
   margin-bottom:-15px;
 }

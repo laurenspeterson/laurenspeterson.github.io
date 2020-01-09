@@ -1,5 +1,6 @@
 #top{
   background-color:#2e3532;
+  color:white;
   line-height:3em;
   font-weight:bold;
   font-size:1.2em;
@@ -8,11 +9,10 @@
 }
 
 #main{
-  padding:13px; 
-  display:flex;
-  flex-flow:row wrap;
-  justify-content: center;
-  align-items: center;
+  text-align:left;
+  width:48%;
+  flex: 1 0 15em;
+  padding:10px;
 }
 #bottom{
     

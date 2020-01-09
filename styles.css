@@ -24,11 +24,14 @@ h1,h2{
 }
 #right-column{
   position:absolute;
-  align-items:right;
+  top:5px;
+  right:5px;
 }
 .img-lh{
   height:100%;
   width:100%;
+  top:5px;
+  right:5px;
 }
 
 .main{

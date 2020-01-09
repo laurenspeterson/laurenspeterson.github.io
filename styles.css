@@ -32,6 +32,7 @@ h1,h2{
   top:5px;
   right:5px;
   background-image: url(image/laurenandhenry.png);
+  z-index: auto;
 }
 
 .main{

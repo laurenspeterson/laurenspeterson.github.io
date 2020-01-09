@@ -24,8 +24,7 @@ h1,h2{
 }
 #right-column{
   position:absolute;
-  top:20px;
-  right:10px;
+  align-items:right;
 }
 .img-lh{
   height:100%;

@@ -1,14 +1,14 @@
-.content{
+body{
   width: 75%;
   margin: 0 auto;
 }
-
-.top{
+header{
   background-color:#c4cac8;
   line-height:3em;
   font-size:1.8em;
   text-align:left;
   padding-right:30px;
+  border:solid thick #050505; 
 }
 h1,h2{
   color:black;
@@ -17,43 +17,23 @@ h1,h2{
   font-size:1.8em;
   margin-bottom:-15px;
 }
-.left-column, #right-column{
-  width:48%;
-  flex: 1 0 15em;
-  padding:10px;
+img{
+  float:right;
+  top:100px;
+  right:180px;
+  width:180px;
+  height:270px;
+  background-image:url(images/laurenandhenry.jpg);
+  box-shadow:7px;
 }
-#right-column{
-  position:absolute;
-  top:5px;
-  right:5px;
-}
-.img-lh{
-  width:200px;
-  top:5px;
-  right:5px;
-  background-image: url(image/laurenandhenry.png);
-  z-index: auto;
-}
-
-.main{
-  text-align:left;
-  width:48%;
-  flex: 1 0 15em;
-  padding:10px;
-  color:black;
-}
-
-.bottom{
-    
-  display:flex;
-  flex-flow:row wrap;
-  flex-direction:column;
-  justify-content:center;
+footer{
+  line-height:1.5em;
+  font-size:1em;
+  padding:20px;
   text-align:center;
   color:white;
   font-weight:bold;
   background-color:#233521;
-  padding:20px;
   vertical-align:middle;
   border:solid thick #8c9267; 
-}
+} 

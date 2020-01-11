@@ -16,6 +16,10 @@ h1,h2{
   font-family:"Calibri","Ariel",sans-serif;
   font-size:1.8em;
   margin-bottom:-15px;
+  font-family: 'Russo One', sans-serif;
+}
+ul{
+  font-family: 'Montserrat', sans-serif;
 }
 img{
   float:right;

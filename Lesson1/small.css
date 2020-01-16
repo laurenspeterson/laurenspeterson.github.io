@@ -1,0 +1,45 @@
+body{
+  width: 75%;
+  margin: 0 auto;
+}
+header{
+  background-color:#c4cac8;
+  line-height:3em;
+  font-size:1.8em;
+  text-align:left;
+  padding-right:30px;
+  border:solid thick #050505; 
+}
+h1{
+  font-size:1rem;
+}
+h2{
+  font-size:.05rem;
+}
+h1,h2{
+  color:black;
+  font-weight:bold;
+  margin: 0.15rem;
+  font-family: 'Russo One', sans-serif;
+}
+ul{
+  font-family: 'Montserrat', sans-serif;
+}
+img{
+ float:right;
+  width:130px;
+  height:200px;
+  background-image:url(images/laurenandhenry.jpg);
+  box-shadow:7px;
+}
+footer{
+  line-height:1.5em;
+  font-size:1em;
+  padding:20px;
+  text-align:center;
+  color:white;
+  font-weight:bold;
+  background-color:#233521;
+  vertical-align:middle;
+  border:solid thick #8c9267; 
+} 

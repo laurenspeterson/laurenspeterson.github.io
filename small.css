@@ -30,7 +30,7 @@ img{
   width:130px;
   height:200px;
   background-image:url(images/laurenandhenry.jpg);
-  box-shadow:7px;
+  box-shadow:10px;
 }
 footer{
   line-height:1.5em;

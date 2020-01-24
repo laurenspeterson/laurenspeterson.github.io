@@ -6,12 +6,12 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta name="discription" content="This site contains information about my class and links to my assignments and projects.">
         <link href="https://fonts.googleapis.com/css?family=Montserrat%7cRusso+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="normalize.css"/>
         <link rel="stylesheet" href="small.css" />
         <link rel="stylesheet" href="medium.css" />
-        <link rel="stylesheet" href="css/normalize.css"/>
         <title>Lesson 1 Page Setup</title>
     </head>
-    <body>
+    <body> 
         <header>
             <img src="images/laurenandhenry.jpg" alt="picture of Lauren and her dog">
             <h1> Lauren S Peterson</h1>
@@ -21,7 +21,7 @@
             <h2>CIT 230 Assignment Portal</h2>
             <ul>
                 <li> Lesson 2: <a href="lesson2/design-principles.html" target="_self">Design Principles Document</a></li>
-                <li> Lesson 3</li>
+                <li> Lesson 3: <a href="lesson3/index.html" target= "self">Weather Site Project</a></li>
                 <li> Lesson 4</li>
                 <li> Lesson 5</li>
                 <li> Lesson 6</li>
@@ -31,10 +31,10 @@
     <footer>
         <div>
         <section>
-           <p>&copy;  <script src="currentdate.js"></script> |  Lauren Peterson  |  Utah  |  <a href="https://www.byui.edu/online (Links to an external site.)">BYUI Website</a></p>
+           &copy; 2020 |  Lauren Peterson  |  Utah  |  <a href="https://www.byui.edu/online (Links to an external site.)">BYUI Website</a>
            <br>
-           Last updated : 
-           <script src="lastmodified.js"></script>
+            <!--<div class="modified"><p>Last Updated:</p><div id="modif"></div></div>-->
+           Last Updated:<span id="lastmodified"></span><script src="lastmodified.js"></script>
         </section>
         </div>
     </footer>

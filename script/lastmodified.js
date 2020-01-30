@@ -1,2 +1,2 @@
-var LastModif = new Date(document.lastmodified);
-    document.getElementById("lastmodified").textContent=LastModif;
+var LastModif = new Date(document.lastModified);
+    document.getElementById("lastModified").textContent=LastModif;

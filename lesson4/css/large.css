@@ -1,11 +1,7 @@
 @media only screen and (min-width: 64rem) {
-/*header{
-    background-color:#93b5c6;
-    background-size: 500px;
-    border:solid thick #f39237;
-}*/
 .top{
    text-align: left;
+   padding: 30px;
 }
 h1{
     top:300px;
@@ -23,10 +19,9 @@ h1{
 .motto{
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
-    float:left;
 }
 .logo{
-    margin-top: 10px;
+    margin-right: 50px;
     width:220px;
     float:right;
 }

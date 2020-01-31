@@ -1,7 +1,9 @@
 var LastModif = new Date(document.lastModified);
     document.getElementById("lastModified").textContent=LastModif;
 
-function toggleMenu(){
-    
-    document.getElementById("nav").classList.toggle("hide");
+function onClickMenu(){
+	document.getElementById("menu").classList.toggle("change");
+	document.getElementById("nav").classList.toggle("change");
+	
+	document.getElementById("menu-bg").classList.toggle("change-bg");
 }

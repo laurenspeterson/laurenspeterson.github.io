@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed%7c300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css"/>
         <link rel="stylesheet" href="css/small.css"/>
+        <link rel="stylesheet" href="css/medium.css"/>
         <link rel="stylesheet" href="css/large.css"/>
         <title>Preston</title>
     </head>
@@ -19,20 +20,31 @@
             <div class="motto">We Wish All Your Days Could Be Sunny Side Up</div>
            </div>
      </header>
+     <body>
     <nav>
-        <button onclick="toggleMenu()">Menu</button>
-        <ul id="nav responsive" class="hide">
-            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</li>
-            <li><a href="https://laurenspeterson.github.io/lesson4/home.html" target="_blank">Home</a></li>
-            <li><a href="https://laurenspeterson.github.io/lesson4/preston-4.html" target="_blank">Preston</a></li>
-            <li><a href="https://laurenspeterson.github.io/lesson4/sodasprings.html" target="_blank">Soda Springs</a></li>
-            <li><a href="https://laurenspeterson.github.io/lesson4/fishhaven.html" target="_blank">Fish Haven</a></li>
-            <li><a href="https://laurenspeterson.github.io/lesson4/stormcenter.html" target="_blank">Storm Center</a></li>
-            <li><a href="https://laurenspeterson.github.io/lesson4/gallery.html" target="_blank">Gallery</a></li>
-        </ul>
+        <div id="menu-bar">
+			<div id="menu" onclick="onClickMenu()">
+				<div id="bar1" class="bar"></div>
+				<div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            
+			<ul class="nav" id="nav">
+				<li><a href="https://laurenspeterson.github.io/lesson4/home.html" target="_blank">Home</a</li>
+				<li><a href="https://laurenspeterson.github.io/lesson4/preston-4.html" target="_blank">Preston</a></li>
+				<li><a href="https://laurenspeterson.github.io/lesson4/sodasprings.html" target="_blank">Soda Springs</a></li>
+				<li><a href="https://laurenspeterson.github.io/lesson4/fishhaven.html" target="_blank">Fish Haven</a></li>
+				<li><a href="https://laurenspeterson.github.io/lesson4/stormcenter.html" target="_blank">Storm Center</a></li>
+                <li><a href="https://laurenspeterson.github.io/lesson4/gallery.html" target="_blank">Gallery</a></li>
+            </ul>
+        </div>
+        <div class="menu-bg" id="menu-bg"></div>
+		<script src="js/script.js"></script>
     </nav>
     <main>
       <div class="preston">
+          <br>
+          <br>
             <h1>Preston Idaho</h1></div>
            
                <div class="box1"><p>Hero w/ weather summary</p></div>
@@ -52,4 +64,5 @@
             Last Updated:<span id="lastModified"></span><script src="js/script.js"></script>
          </div>
     </footer>
+</body>
     </html>

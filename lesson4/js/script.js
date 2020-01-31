@@ -1,5 +1,5 @@
 var LastModif = new Date(document.lastModified);
-    document.getElementById("lastModified").textContent=LastModif;
+    document.getElementById("lastModified").textContent=lastModif;
 
 function onClickMenu(){
 	document.getElementById("menu").classList.toggle("change");

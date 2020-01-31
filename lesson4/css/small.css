@@ -1,0 +1,76 @@
+nav button{
+    margin-left:8em;
+    background-color: white;
+    font-size: 1.8rem;
+    color: #001427;
+}
+.top{
+    background-color:#93b5c6;
+    border:solid thick #f39237;
+}
+h1{
+    font-size: 52px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+}
+.nameandmotto{
+    float:right;
+    margin-right:20px;
+    justify-content: center;
+}
+.motto{
+    margin-top:30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    float:right;
+}
+.logo{
+    margin: 20px;
+    width:220px;
+    border:10px white;
+}
+ul{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+nav{
+    background-color: #fceb4e;
+    color:black;
+    padding: 1em .6em;
+    font-size: 22px;
+}
+body{
+    background-color: #fceb4e;
+    margin:25px;
+}
+.box1{
+    background-color: #93b5c6;
+    border: black dotted 1.2px;
+    align-content: center;
+}
+.box2{
+    background-color: #93b5c6;
+    border: black dotted 1.2px;
+    align-content: center;
+}
+.box3{
+    background-color: #93b5c6;
+    border: black dotted 1.2px;
+    align-content: center;
+}
+.box4{
+    background-color: #93b5c6;
+    border: black dotted 1.2px;
+    align-content: center;
+}
+footer{
+    line-height:1.5em;
+    font-size:20px;
+    padding:20px;
+    text-align:center;
+    color:black;
+    font-weight:bold;
+    background-color:#93b5c6;
+    vertical-align:middle;
+    border:solid thick #f39237; 
+}

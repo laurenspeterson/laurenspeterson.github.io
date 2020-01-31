@@ -1,4 +1,4 @@
-var LastModif = new Date(document.lastModified);
+var lastModif = new Date(document.lastModified);
     document.getElementById("lastModified").textContent=lastModif;
 
 function onClickMenu(){

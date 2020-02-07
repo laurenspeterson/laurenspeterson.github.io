@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="discription" content="This site is my Lesson 2 for my class.">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat%7cRusso+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed%7c300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/small.css"/>
+        <link rel="stylesheet" href="css/medium.css"/>
+        <link rel="stylesheet" href="css/large.css"/>
+        <title>Preston towne page</title>
+    </head>
+    <header class="top">
+            <img class="logo" src="images/weatherlogo.png" alt="sunny side weather logo">
+           <div class="nameandmotto">
+            <h1>Sunny Side Weather</h1>
+            <div class="motto">We Wish All Your Days Could Be Sunny Side Up</div>
+           </div>
+     </header>
+     <body>
+        <nav>
+            <div id="menu-bar">
+			    <div id="menu" onclick="onClickMenu()">
+				<div id="bar1" class="bar"></div>
+				<div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+                </div>
+            
+			<ul class="nav" id="nav">
+				<li><a href="https://laurenspeterson.github.io/lesson5/home.html" target="_blank">Home</a></li>
+				<li><a href="https://laurenspeterson.github.io/lesson5/preston-5.html" target="_blank">Preston</a></li>
+				<li><a href="https://laurenspeterson.github.io/lesson4/sodasprings.html" target="_blank">Soda Springs</a></li>
+				<li><a href="https://laurenspeterson.github.io/lesson4/fishhaven.html" target="_blank">Fish Haven</a></li>
+				<li><a href="https://laurenspeterson.github.io/lesson4/stormcenter.html" target="_blank">Storm Center</a></li>
+                <li><a href="https://laurenspeterson.github.io/lesson4/gallery.html" target="_blank">Gallery</a></li>
+            </ul>
+        </div>
+        <div class="menu-bg" id="menu-bg"></div>
+		<script src="js/script.js"></script>
+        </nav>
+     <main>
+        <div class="preston">
+            <br>
+            <br>
+            <h1>Preston Idaho</h1>
+        </div>
+        <div class="herodiv">
+               <img class="toppic" src="images/idahopic.jpeg" alt="picture of preston Idaho">
+               <section class="weathersummary">
+                   <h2>Weather Summary</h2>
+                   <p> 
+                       38° F
+                       <br>
+                       High: 38° F
+                       <br>
+                        Humidity: 77%
+                        <br>
+                        Wind: 9mph
+                        <br>
+                   </p>
+               </section>
+        </div>
+        <div class="box2">
+               <h4 class="tabletitle">5 Day Forecast</h4>
+               <table>
+                <tr>
+                  <th>Sunday</th>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                </tr>
+                <tr>
+                  <td>32° f</td>
+                  <td>32° f</td>
+                  <td>32° f</td>
+                  <td>32° f</td>
+                  <td>32° f</td>
+                </tr>
+              </table>
+        </div>
+        <div class="box3" id="row1">
+                <div class="left-column" id="text">
+                <h5>Windy snowstorm expected to make roads dangerous</h5>
+                <p>The Idaho Transportation Department (ITD) and the 
+                    National Weather Service (NWS) are advising the traveling 
+                    public to use caution while in transit due to an 
+                    extended severe winter weather advisory beginning this evening 
+                     Wed., Feb. 5. </p>
+                </div>
+                <div class="right-column">
+                <img class="mainpics" src="images/idahostorm.jpeg" alt="idaho storm picture">
+                </div>
+        </div>
+        <div class="box4" id="row2">
+                <div class="left-column">
+                    <img class="mainpics" src="images/prestonmap.png" alt="map of preston">
+                </div>
+                <div class="right-column" id="text">
+                    <p>
+                        "(111)-111-1111"
+                        <br>
+                        contact@sunnysideweather.com
+                        <br>
+                    </p>
+                </div> 
+        </div>
+    </main>
+    <footer>
+        <div>
+            &copy;Sunny Side Weather |  Lauren Peterson
+            <br>
+            Last Updated:<span id="lastModified"></span><script src="js/script.js"></script>
+         </div>
+    </footer>
+</body>
+    </html>

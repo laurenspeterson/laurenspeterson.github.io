@@ -1,2 +1,3 @@
-var LastModif = new Date(document.lastModified);
-    document.getElementById("lastModified").textContent=LastModif;
+var currentDate = new Date();
+var currentYear = currentDate.getFullYear();
+document.getElementById("currentYear").innerHTML = currentYear;

@@ -17,8 +17,8 @@ let daysOfWeek = [
 	"Sunday",
 	"Monday", 
 	"Tueday",
-	"Wednesday";
-	"Thursday";
+	"Wednesday",
+	"Thursday",
 	"Friday",
 	"Saturday"
 

@@ -3,6 +3,19 @@
         text-align: left;
         padding: 30px;
      }
+     .pancakes{
+        width: 100%;
+        background-color:#f39237;
+        color:black;
+        text-align:center;
+        padding:10px;
+        position: fixed;
+        top: 0em;
+        left: 0em;
+        right: 0em;
+        align-items: center;
+        z-index: 1;
+    }
      h1{
          top:300px;
          font-size: 40px;
@@ -63,8 +76,8 @@
          display: none;
      }
      .menu-bg, #menu-bar{
-         top: 0;
-         left: 0;
+         top: 35px;
+         left: 20px;
          position: absolute;
      }
      .menu-bg{

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 32rem) {
     .top{
         text-align: left;
         padding: 30px;
@@ -135,6 +135,7 @@
         padding: 8px;
     }
      .box2{
+         display:block;
          background-color: white;
          align-content: center;
      }
@@ -154,12 +155,19 @@
          justify-content: center;
          align-items: center;
      }
-     .mainpics{
+     .mainpic{
          width:100%;
          border-style: solid;
 	    border-color: #93b5c6;
 	    border-width: 7px;
      }
+     .map{
+        display:block;
+        width:100%;
+        border-style: solid;
+        border-color: #93b5c6;
+        border-width: 7px;
+    }
      .toppic{
      width:100%;
      }

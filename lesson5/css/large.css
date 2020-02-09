@@ -134,7 +134,12 @@ td, th {
 	text-align: center;
 	padding: 8px;
 }
+.tabletitle{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
 .box2{
+	display:block;
     background-color: white;
     align-content: center;
 }
@@ -157,11 +162,19 @@ td, th {
 #text{
 	font-size: 1.2rem;
 }
-.mainpics{
+.mainpic{
 	width:100%;
 	border-style: solid;
 	border-color: #93b5c6;
 	border-width: 7px;
+}
+.map{
+		display:block;
+		width:100%;
+		border-style: solid;
+		border-color: #93b5c6;
+		border-width: 7px;
+	
 }
 .toppic{
 width:100%;

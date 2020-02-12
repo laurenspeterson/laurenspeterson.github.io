@@ -1,0 +1,209 @@
+@media only screen and (min-width: 64rem) {
+.top{
+   text-align: left;
+   padding: 30px;
+}
+.pancakes{
+	width: 100%;
+	background-color:#f39237;
+	color:black;
+	text-align:center;
+	padding:10px;
+	position: fixed;
+	top: 0em;
+	left:0em;
+	right: 0em;
+	align-items: center;
+	z-index: 1;
+}
+h1{
+    top:300px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+}
+.nameandmotto{
+    float:inline-start;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.motto{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+.logo{
+    margin-right: 50px;
+    width:220px;
+    float:right;
+}
+#menu{
+	width: 35px;
+	height: 30px;
+	margin: 30px 0 20px 20px;
+	cursor: pointer;
+}
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color:#fceb4e;
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+#bar1{
+	transform: translateY(-4px);
+}
+#bar3{
+	transform: translateY(4px);
+}
+.nav li a{
+	color:black;
+	text-decoration: none;
+}
+.nav li a:hover{
+	font-weight: bold;
+}
+.nav li{
+	list-style: none;
+	padding: 16px 0;
+}
+.nav{
+	padding: 0;
+	margin: 0 20px;
+	transition: 0.3s ease;
+	display: none;
+}
+.menu-bg, #menu-bar{
+	top: 35px;
+	left: 20px;
+	position: absolute;
+}
+.menu-bg{
+	z-index: 1;
+	width: 0;
+	height: 0;
+	margin: 30px 0 20px 20px;
+	background: radial-gradient(circle,white,#fceb4e);
+	border-radius: 50%;
+	transition: 0.3s ease;
+}
+#menu-bar{
+	z-index: 2;	
+}
+.change-bg{
+	width: 550px;
+	height: 540px;
+	transform: translate(-60%,-30%);
+}
+.change .bar{
+	background-color:#fceb4e;
+}
+.change #bar1{
+	transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-6px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change{
+	display: block;
+}
+body{
+    background-color: #93b5c6;
+    margin:35px;
+}
+.tabletitle{
+	text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.herodiv {margin: 10px auto;position: relative;}
+h1, h2, p {margin: 0;}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 60%;
+	margin-left:20%;
+	margin-right:20%;
+}
+td, th {
+	border: 3px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+}
+.tabletitle{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+.box2{
+	display:block;
+    background-color: white;
+    align-content: center;
+}
+.box3{
+    background-color:  white;
+    align-content: center;
+}
+.box4{
+    background-color:white;
+    align-content: center;
+}
+#row1, #row2{
+	padding:13px; 
+	margin: 2rem;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content: center;
+	align-items: center;
+}
+#text{
+	font-size: 1.2rem;
+}
+.mainpic{
+	width:100%;
+	border-style: solid;
+	border-color: #93b5c6;
+	border-width: 7px;
+}
+.map{
+		display:block;
+		width:100%;
+		border-style: solid;
+		border-color: #93b5c6;
+		border-width: 7px;
+	
+}
+.toppic{
+width:100%;
+}
+.left-column, .right-column{
+	width:48%;
+	flex: 1 0 15em;
+	padding:10px;
+  }
+.weathersummary{
+	background-color: white;
+	position: absolute;
+	top: 55px;
+	left: 50px;
+	background: radial-gradient(white, #93b5c6);
+	border: 1px solid white;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+}
+footer{
+    line-height:1.5em;
+    font-size:20px;
+    padding:20px;
+    text-align:center;
+    color:black;
+    font-weight:bold;
+    background-color:#93b5c6;
+    vertical-align:middle;
+    border:solid thick #f39237; 
+}
+}

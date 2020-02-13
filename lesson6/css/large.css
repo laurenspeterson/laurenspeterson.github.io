@@ -182,11 +182,11 @@ td, th {
 	flex: 1 0 15em;
 	padding:10px;
   }
-  main figure.toppic{
+  main picture.toppic{
 	width: 100%;
 	margin: 0;
 }
-main figure.toppic img{
+main picture.toppic img{
 	width:100%;
 }
 .herodiv {

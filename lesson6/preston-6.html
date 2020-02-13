@@ -53,18 +53,24 @@
             <h1>Preston Idaho</h1>
         </div>
         <div class="herodiv">
-               <img class="toppic" src="images/idahopic.jpeg" alt="picture of preston Idaho">
+            <picture class="toppic">
+                <source media="(max-width:700px)" srcset="images/newprestonpic1.jpg">
+                <source media="(max-width:1100px)" srcset="images/newprestonpic2.jpg">
+                <source media="(max-width:1600px)" srcset="images/newprestonpic3.jpg">
+                <img src="images/newprestonpic.jpeg" alt="picture of preston Idaho"> 
+            </picture>
                <section class="weathersummary">
                    <h2>Weather Summary</h2>
                    <p> 
-                       38° F
+                       <span id="temp">38</span>° F
                        <br>
                        High: 38° F
                        <br>
                         Humidity: 77%
                         <br>
-                        Wind: 9mph
+                        Wind:<span id="wind"> 9</span>mph
                         <br>
+                        Wind chill:<span id="windchill"> </span>
                    </p>
                </section>
         </div>

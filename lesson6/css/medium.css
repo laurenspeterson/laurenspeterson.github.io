@@ -120,9 +120,10 @@
         text-align: center;
         font-family: 'Montserrat', sans-serif;
      }
-     .herodiv {margin: 10px auto;position: relative;}
-     h1, h2, p {margin: 0;}
-     table {
+    h1, h2, p {
+         margin: 0;
+        }
+    table {
         font-family: arial, sans-serif;
          border-collapse: collapse;
         width: 60%;
@@ -167,15 +168,23 @@
         border-style: solid;
         border-color: #93b5c6;
         border-width: 7px;
-    }
-     .toppic{
-     width:100%;
      }
      .left-column, .right-column{
          width:48%;
          flex: 1 0 15em;
          padding:10px;
        }
+       main figure.toppic{
+        width: 100%;
+        margin: 0;
+    }
+    main figure.toppic img{
+        width:100%;
+    }
+    .herodiv {
+        margin: 10px auto;
+        position: relative;
+   }
      .weathersummary{
          background-color: white;
          position: absolute;

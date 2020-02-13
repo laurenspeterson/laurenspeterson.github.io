@@ -120,8 +120,9 @@ body{
 	text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
-.herodiv {margin: 10px auto;position: relative;}
-h1, h2, p {margin: 0;}
+h1, h2, p {
+	margin: 0;
+}
 table {
 	font-family: arial, sans-serif;
 	border-collapse: collapse;
@@ -176,25 +177,33 @@ td, th {
 		border-width: 7px;
 	
 }
-.toppic{
-width:100%;
-}
 .left-column, .right-column{
 	width:48%;
 	flex: 1 0 15em;
 	padding:10px;
   }
-.weathersummary{
-	background-color: white;
-	position: absolute;
-	top: 55px;
-	left: 50px;
-	background: radial-gradient(white, #93b5c6);
-	border: 1px solid white;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #111;
-	opacity: .8;
+  main figure.toppic{
+	width: 100%;
+	margin: 0;
 }
+main figure.toppic img{
+	width:100%;
+}
+.herodiv {
+	margin: 10px auto;
+	position: relative;
+}
+ .weathersummary{
+	 background-color: white;
+	 position: absolute;
+	 top: 25px;
+	 left: 50px;
+	 background: radial-gradient(white, #93b5c6);
+	 border: 1px solid white;
+	 padding: 1.5rem;
+	 box-shadow: 0 0 30px #111;
+	 opacity: .8;
+ }
 footer{
     line-height:1.5em;
     font-size:20px;

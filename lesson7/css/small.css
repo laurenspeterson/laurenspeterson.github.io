@@ -37,6 +37,7 @@ body{
     height:300px;
     border:4px solid white;
 }
+.gallery:hover {box-shadow: 0 0 50px #333;}
 .grid{
     display: grid;
     grid-template-columns: 400px;

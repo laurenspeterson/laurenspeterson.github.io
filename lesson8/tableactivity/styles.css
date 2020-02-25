@@ -4,8 +4,8 @@ body{
 thead th{
     background-color: #628cab;
     color: white;
-    font-size: 1.1em;
     font-weight: bold;
+    font-size: 1.1em;
 }
 table, th, td{
     border: 1px solid #BBBBBB;

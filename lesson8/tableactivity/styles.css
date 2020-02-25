@@ -11,11 +11,11 @@ table, th, td{
     border: 1px solid #BBBBBB;
     border-collapse: collapse;
 }
-
+table:hover  {box-shadow: 0 0 50px #333;}
 table{
     border-spacing: 5px;
-    box-shadow: 5px 5px 8px #628cab;
 }
+
 th, td{
     padding: 10px;
     text-align: center;

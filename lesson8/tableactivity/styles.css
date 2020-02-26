@@ -14,6 +14,7 @@ table, th, td{
 table:hover  {box-shadow: 0 0 50px #333;}
 table{
     border-spacing: 5px;
+    width:30%;
 }
 
 th, td{

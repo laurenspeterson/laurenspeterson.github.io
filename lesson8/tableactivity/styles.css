@@ -11,10 +11,10 @@ table, th, td{
     border: 1px solid #BBBBBB;
     border-collapse: collapse;
 }
-table:hover  {box-shadow: 0 0 50px #333;}
 table{
     border-spacing: 5px;
     width:400px;
+    box-shadow: 10px 10px 10px #628cab;
 }
 
 th, td{

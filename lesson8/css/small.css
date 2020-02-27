@@ -169,4 +169,7 @@
         align-items: center;
         padding-top: 25px;
     }
+    .min{
+        font-size: .9rem;
+    }
 }

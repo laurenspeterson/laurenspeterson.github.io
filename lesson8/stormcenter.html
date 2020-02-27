@@ -50,7 +50,7 @@
             
             <fieldset>
                     <legend>Storm Reporting</legend>
-                    <label class="qs">Full Name* <input type="text" name="fname" required></label>
+                    <label class="qs">Full Name* <input type="text" name="fname" pattern="[A-Za-z]{5,}" required><span class="min"> ( 5 Letter Minnimum ) </span></label>
                     <label class="qs">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
                     <label class="qs">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
                     <label class="qs">Zip Code* <input type="number" name="zip" required></label>

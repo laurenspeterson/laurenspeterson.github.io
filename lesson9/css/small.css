@@ -121,6 +121,9 @@ p {
     margin: 5px;
     color:black;
   }
+  h3{
+    font-style: italic;
+  }
   
 main {
     background-color:white;

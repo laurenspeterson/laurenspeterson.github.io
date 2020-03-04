@@ -10,7 +10,7 @@ fetch(requestURL)
    for (let i = 0; i < towns.length; i++ ) {
      let card = document.createElement('section');
      let name = document.createElement('h2');
-     let motto = document.createElement('p');
+     let motto = document.createElement('h3');
 	 let yearFounded = document.createElement('p');
 	 let currentPopulation = document.createElement('p');
 	 let averageRainfall = document.createElement('p');

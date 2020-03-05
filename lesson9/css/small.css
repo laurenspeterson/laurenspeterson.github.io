@@ -11,7 +11,7 @@ h1{
 }
 .nameandmotto{
     float:inline-start;
-    margin-top: 50px;
+    margin-top: 4h0px;
     margin-left: 50px;
     text-align: center;
 }
@@ -121,8 +121,10 @@ p {
     margin: 5px;
     color:black;
   }
-  h3{
+h3{
     font-style: italic;
+    margin: 10px;
+    text-align: center;
   }
   
 main {
@@ -139,7 +141,7 @@ div.cards {
   }
   
 div.cards section {
-    display: grid; 
+    display: grid;
     justify-items: center; 
     width: 95%;
     margin: 0.25rem;

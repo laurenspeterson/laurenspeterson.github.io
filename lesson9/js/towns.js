@@ -7,7 +7,9 @@ fetch(requestURL)
     console.table(jsonObject); 
     const towns = jsonObject['towns']; 
 
-   for (let i = 0; i < towns.length; i++ ) {
+    for (let i = 0; i < 6; i++ ) {
+        if (i ==0 || i ==3 || i ==6 || i ==2) {
+        continue }
      let card = document.createElement('section');
      let name = document.createElement('h2');
      let motto = document.createElement('h3');
@@ -21,7 +23,7 @@ fetch(requestURL)
 	 yearFounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
 	 currentPopulation.textContent = 'Population: ' + towns[i].currentPopulation;
 	 averageRainfall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
-     photo.setAttribute('src', towns[i].photo);
+     photo.setAttribute('src', "images/" + towns[i].photo);
      photo.setAttribute('alt', towns[i].name);
 
      card.appendChild(name);

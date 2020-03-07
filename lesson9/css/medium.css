@@ -1,11 +1,24 @@
- @media only screen and (min-width: 45em) {
-    div.cards {
-      grid-template-columns: 1fr 1fr;
-    } 
- 
-    main {
+@media (min-width: 44em) {
+div.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.cards section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+div.cards section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+main {
       padding: 1rem;
       margin: 20px;
-    }
+}
     
-  }
+}

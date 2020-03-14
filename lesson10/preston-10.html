@@ -39,7 +39,7 @@
 				<li><a href="https://laurenspeterson.github.io/lesson10/preston-10.html" target="_blank">Preston</a></li>
 				<li><a href="https://laurenspeterson.github.io/lesson4/sodasprings.html" target="_blank">Soda Springs</a></li>
 				<li><a href="https://laurenspeterson.github.io/lesson4/fishhaven.html" target="_blank">Fish Haven</a></li>
-				<li><a href="https://laurenspeterson.github.io/lesson4/stormcenter.html" target="_blank">Storm Center</a></li>
+				<li><a href="https://laurenspeterson.github.io/lesson8/stormcenter.html" target="_blank">Storm Center</a></li>
                 <li><a href="https://laurenspeterson.github.io/lesson7/gallery-7.html" target="_blank">Gallery</a></li>
             </ul>
         </div>
@@ -54,45 +54,52 @@
         </div>
         <div class="herodiv">
             <picture class="toppic">
-                <source media="(max-width:700px)" srcset="images/newprestonpic1.jpg">
-                <source media="(max-width:1100px)" srcset="images/newprestonpic2.jpg">
-                <source media="(max-width:1600px)" srcset="images/newprestonpic3.jpg">
-                <img src="images/newprestonpic.jpeg" alt="picture of preston Idaho"> 
+                <source media="(max-width:700px)" srcset="images/finalprestonpic1.jpg">
+                <source media="(max-width:1100px)" srcset="images/finalprestonpic2.jpg">
+                <source media="(max-width:1600px)" srcset="images/finalprestonpic3.jpg">
+                <img src="images/finalprestonpic.jpeg" alt="picture of preston Idaho"> 
             </picture>
                <section class="weathersummary">
-                   <h2>Weather Summary</h2>
-                   <p> 
-                       <span id="temp">38</span>° F
-                       <br>
-                       High: 38° F
-                       <br>
-                        Humidity: 77%
-                        <br>
-                        Wind: <span id="wind">9</span>mph
-                        <br>
-                        Wind chill:<span id="windchill"></span><script src="js/windchill.js"></script> ° F
-                   </p>
-               </section>
+                <p><span id="temp"></span>&#176; F Now<br>
+                    <span id="condition"></span> Currently<br>
+                    <span id="humidity"></span>% Humidity<br>
+                    <span id="speed"></span> mph Wind<br>
+                    Feels Like <span id="windchill"></span>&#176; F</p>
+              </section>
         </div>
-        <div class="box2">
-               <h4 class="tabletitle">5 Day Forecast</h4>
-               <table>
-                <tr>
-                  <th>Sunday</th>
-                  <th>Monday</th>
-                  <th>Tuesday</th>
-                  <th>Wednesday</th>
-                  <th>Thursday</th>
-                </tr>
-                <tr>
-                  <td>32° f</td>
-                  <td>32° f</td>
-                  <td>32° f</td>
-                  <td>32° f</td>
-                  <td>32° f</td>
-                </tr>
-              </table>
-        </div>
+            <div id="second">
+                <div>
+                   <h3 id="forecast-title">5 Day Forecast</h3>
+                </div>
+                <div id="forecast">
+                   <div>
+                      <h3 id="day1"></h3>
+                      <img id="image1">
+                      <section><span id="temp1"></span>&#176; F</section>
+                   </div>
+                   <div>
+                      <h3 id="day2"></h3>
+                      <img id="image2">
+                      <section><span id="temp2"></span>&#176; F</section>
+                   </div>
+                   <div>
+                      <h3 id="day3"></h3>
+                      <img id="image3">
+                      <section><span id="temp3"></span>&#176; F</section>
+                   </div>
+                   <div>
+                      <h3 id="day4"></h3>
+                      <img id="image4">
+                      <section><span id="temp4"></span>&#176; F</section>
+                   </div>
+                   <div>
+                      <h3 id="day5"></h3>
+                      <img id="image5">
+                      <section><span id="temp5"></span>&#176; F</section>
+                   </div>
+                </div>
+                <div id="credit"> (Weather Data Provided by OpenWeatherMap, Linked Below) </div>
+            </div>
         <div class="box3" id="row1">
                 <div class="left-column" id="text">
                 <h5>Windy snowstorm expected to make roads dangerous</h5>
@@ -126,6 +133,12 @@
             <br>
             Last Updated:<span id="lastModified"></span><script src="js/script.js"></script>
          </div>
+         <div>
+            <a target="_blank" href="https://openweathermap.org/">Click For: OpenWeatherMap</a>
+         </div>
     </footer>
+    <script src="js/pancakes.js"></script>
+   <script src="js/summaryapi.js"></script>
+   <script src="js/forecastapi.js"></script>
 </body>
     </html>

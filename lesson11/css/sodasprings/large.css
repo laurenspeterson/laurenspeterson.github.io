@@ -173,8 +173,8 @@
      .weathersummary{
          background-color: white;
          position: absolute;
-         top: 65px;
-         left: 50px;
+         margin-top: 95px;
+         margin-left: 50px;
          background: radial-gradient(white, #93b5c6);
          border: 1px solid white;
          padding: 1.5rem;

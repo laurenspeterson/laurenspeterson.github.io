@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="discription" content="soda springs site page">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat%7cRusso+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed%7c300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/sodasprings/large.css"/>
+        <link rel="stylesheet" href="css/sodasprings/medium.css"/>
+        <link rel="stylesheet" href="css/sodasprings/small.css"/>
+        <title>Soda Springs Town page</title>
+    </head>
+    <header class="top">
+            <img class="logo" src="images/weatherlogo.png" alt="sunny side weather logo">
+           <div class="nameandmotto">
+            <h1>Sunny Side Weather</h1>
+            <div class="motto">We Wish All Your Days Could Be Sunny Side Up</div>
+           </div>
+     </header>
+     <body>
+        <section class="pancakes" id="friday">
+           <p> Saturday = Soda Springs Pancakes at the Park!
+            <br>
+            9:00 AM Saturday at the city park.</p>
+        </section>
+        <nav>
+            <div id="menu-bar">
+			    <div id="menu" onclick="onClickMenu()">
+				<div id="bar1" class="bar"></div>
+				<div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+                </div>
+            
+			<ul class="nav" id="nav">
+				<li><a href="https://laurenspeterson.github.io/lesson11/index.html" target="_blank">Home</a></li>
+				<li><a href="https://laurenspeterson.github.io/lesson11/preston.html" target="_blank">Preston</a></li>
+				<li><a href="https://laurenspeterson.github.io/lesson11/sodasprings.html" target="_blank">Soda Springs</a></li>
+				<li><a href="https://laurenspeterson.github.io/lesson11/fishhaven.html" target="_blank">Fish Haven</a></li>
+				<li><a href="https://laurenspeterson.github.io/lesson11/stormcenter.html" target="_blank">Storm Center</a></li>
+                <li><a href="https://laurenspeterson.github.io/lesson11/gallery.html" target="_blank">Gallery</a></li>
+            </ul>
+        </div>
+        <div class="menu-bg" id="menu-bg"></div>
+		<script src="js/sodasprings/script.js"></script>
+        </nav>
+     <main>
+        <div>
+            <br>
+            <br>
+            <h1>Soda Springs Idaho</h1>
+        </div>
+        <div class="herodiv">
+            <picture class="toppic">
+                <source media="(max-width:700px)" srcset="images/sodaspringspic1.jpg">
+                <source media="(max-width:1100px)" srcset="images/sodaspringspic2.jpg">
+                <source media="(max-width:1600px)" srcset="images/sodaspringspic3.jpg">
+                <img src="images/sodaspringspic.jpg" alt="picture of soda springs Idaho"> 
+            </picture>
+               <section class="weathersummary">
+                <p><span id="temp"></span>&#176; F Now<br>
+                    <span id="condition"></span> Currently<br>
+                    <span id="humidity"></span>% Humidity<br>
+                    <span id="speed"></span> mph Wind<br>
+                    Feels Like <span id="windchill"></span>&#176; F</p>
+              </section>
+        </div>
+            <div id="second">
+                <div>
+                   <h3 id="forecast-title">5 Day Forecast</h3>
+                </div>
+                <div id="forecast">
+                   <div>
+                      <h3 id="day1"></h3>
+                      <img id="image1">
+                      <section><span id="temp1"></span>&#176; F</section>
+                   </div>
+                   <div>
+                      <h3 id="day2"></h3>
+                      <img id="image2">
+                      <section><span id="temp2"></span>&#176; F</section>
+                   </div>
+                   <div>
+                      <h3 id="day3"></h3>
+                      <img id="image3">
+                      <section><span id="temp3"></span>&#176; F</section>
+                   </div>
+                   <div>
+                      <h3 id="day4"></h3>
+                      <img id="image4">
+                      <section><span id="temp4"></span>&#176; F</section>
+                   </div>
+                   <div>
+                      <h3 id="day5"></h3>
+                      <img id="image5">
+                      <section><span id="temp5"></span>&#176; F</section>
+                   </div>
+                </div>
+                <div id="credit"> (Weather Data Provided by OpenWeatherMap, Linked Below) </div>
+            </div>
+        <div class="box3" id="row1">
+                <div class="left-column" id="text">
+                <h5>Hike the Oregon Trail in Soda Springs</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    In rhoncus ex ac ligula cursus porttitor. Curabitur placerat porta 
+                    ligula eu malesuada. Morbi mollis elit sit amet massa dapibus, sit 
+                    amet consequat enim interdum. Donec sed ornare ipsum. Duis a 
+                    fringilla ipsum. Suspendisse imperdiet lorem lorem, vitae posuere 
+                    eros malesuada id. Sed vel rhoncus elit. </p>
+                </div>
+                <div class="right-column">
+                <img class="mainpic" src="images/sodaspringslastpic.jpg" alt="picture of trail in soda springs ">
+                </div>
+        </div>
+        <div class="box4" id="row2">
+                <div class="left-column">
+                    <img class="map" src="images/sodaspringsmap.png" alt="map of soda springs">
+                </div>
+                <div class="right-column" id="text">
+                    <p>
+                        "(111)-111-1111"
+                        <br>
+                        contact@sunnysideweather.com
+                        <br>
+                    </p>
+                </div> 
+        </div>
+    </main>
+    <footer>
+        <div>
+            &copy;Sunny Side Weather |  Lauren Peterson
+            <br>
+            Last Updated:<span id="lastModified"></span><script src="js/sodasprings/script.js"></script>
+         </div>
+         <div>
+            <a target="_blank" href="https://openweathermap.org/">Click For: OpenWeatherMap</a>
+         </div>
+    </footer>
+    <script src="js/sodasprings/pancakes.js"></script>
+   <script src="js/sodasprings/summaryapi.js"></script>
+   <script src="js/sodasprings/forecastapi.js"></script>
+</body>
+    </html>

@@ -11,16 +11,10 @@ fetch(requestURL)
       if (towns[i].name == "Preston")
       
         let card = document.createElement('section');
-        let info = document.createElement('div');
         let list = document.createElement('ul');
-        let name = document.createElement('h2');
-        let events = document.createElement('ul');
   
-        info.className = "town-info";
-        name.textContent = towns[i].name;
         item.textContent = "Preston Events: " + towns[i].events;
-  
-        info.appendChild(name);
+
         list.appendChild(item);
        
         

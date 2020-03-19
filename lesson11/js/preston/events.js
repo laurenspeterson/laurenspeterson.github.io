@@ -9,7 +9,26 @@ fetch(requestURL)
 
     for (let i = 0; i < towns.length; i++) {
       if (towns[i].name == "Preston") {
-      let list = document.createElement('ul');
+      
+        let card = document.createElement('section');
+        let info = document.createElement('div');
+        let name = document.createElement('h2');
+        let events = document.createElement('ul');
+  
+        info.className = "town-info";
+        name.textContent = towns[i].name;
+        events.textContent = "Preston Events: " + towns[i].events;
+  
+        info.appendChild(name);
+        info.appendChild(events);
+       
+        
+       document.querySelector('div.cards').appendChild(card);
+      }
+      
+      
+      
+        /*  let list = document.createElement('ul');
 
       name.textContent = towns[i].name;
       events.textContent = towns[i].events;
@@ -18,5 +37,5 @@ fetch(requestURL)
       list.appendChild(events);
       }
      document.querySelector('div.list').appendChild(list);
-    }
-   });
+    } */
+   } } );

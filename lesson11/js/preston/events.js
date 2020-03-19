@@ -8,7 +8,7 @@ fetch(requestURL)
     const towns = jsonObject['towns']; 
 
     for (let i = 0; i < towns.length; i++) {
-      if (towns[i].name == "Preston") {
+      if (towns[i].name == "Preston")
       
         let card = document.createElement('section');
         let info = document.createElement('div');
@@ -24,18 +24,4 @@ fetch(requestURL)
        
         
        document.querySelector('div.cards').appendChild(card);
-      }
-      
-      
-      
-        /*  let list = document.createElement('ul');
-
-      name.textContent = towns[i].name;
-      events.textContent = towns[i].events;
-  
-      list.appendChild(name);
-      list.appendChild(events);
-      }
-     document.querySelector('div.list').appendChild(list);
-    } */
    } } );

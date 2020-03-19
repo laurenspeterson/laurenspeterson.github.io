@@ -179,6 +179,9 @@
          opacity: .8;
          font-family: 'Montserrat', sans-serif;
      }
+     #text{
+        text-align: center;
+     }
      footer{
          line-height:1.5em;
          font-size:20px;

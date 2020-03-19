@@ -103,7 +103,11 @@ body{
 .change{
 	display: block;
 }
-/* --------------- SMALL VIEWPORT -------------- */
+.article{
+  font-family:'Montserrat', sans-serif;
+  padding: 25px;
+  text-align: center;
+}
 h2 {
     font-size:2em;
     color: black;

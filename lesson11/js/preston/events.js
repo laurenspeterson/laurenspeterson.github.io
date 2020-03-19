@@ -12,15 +12,16 @@ fetch(requestURL)
       
         let card = document.createElement('section');
         let info = document.createElement('div');
+        let list = document.createElement('ul');
         let name = document.createElement('h2');
         let events = document.createElement('ul');
   
         info.className = "town-info";
         name.textContent = towns[i].name;
-        events.textContent = "Preston Events: " + towns[i].events;
+        item.textContent = "Preston Events: " + towns[i].events;
   
         info.appendChild(name);
-        info.appendChild(events);
+        list.appendChild(item);
        
         
        document.querySelector('div.cards').appendChild(card);

@@ -11,9 +11,10 @@ fetch(requestURL)
       if (towns[i].name == "Preston")
       
         let list = document.createElement('ul');
-  
-        item.textContent = "Preston Events: " + towns[i].events;
 
+    for (let x = 0; x < towns[i].events.length; x++) {
+        let item = document.createElement('li');
+        item.textContent = "Preston Events: " +towns[i].events[x];
         list.appendChild(item);
        
        document.querySelector('div.list').appendChild(list);

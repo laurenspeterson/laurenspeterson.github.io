@@ -12,9 +12,9 @@ fetch(requestURL)
       
         let list = document.createElement('ul');
 
-    for (let x = 0; x < towns[i].events.length; x++) {
+    for (let y = 0; y < towns[i].events.length; y++) {
         let item = document.createElement('li');
-        item.textContent = "Preston Events: " +towns[i].events[x];
+        item.textContent = "Preston Events: " +towns[i].events[y];
         list.appendChild(item);
        
        document.querySelector('div.list').appendChild(list);

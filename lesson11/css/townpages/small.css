@@ -1,9 +1,9 @@
-@media only screen and (min-width: 44.5rem) {
+@media only screen and (min-width: 22rem) {
     .top{
         text-align: left;
         padding: 30px;
      }
-     .pancakes{
+     #friday{
         width: 100%;
         background-color:#f39237;
         color:black;
@@ -15,6 +15,9 @@
         right: 0em;
         align-items: center;
         z-index: 1;
+    }
+    .pancakes{
+        display: none;
     }
      h1{
          top:300px;
@@ -37,7 +40,7 @@
          margin-right: 50px;
          width:220px;
          float:right;
-         padding:10px;
+         padding: 10px;
      }
      #menu{
          width: 35px;
@@ -117,21 +120,16 @@
          background-color: #93b5c6;
          margin:35px;
      }
-    h1, h2, p {
+     h1, h2, p {
          margin: 0;
-        }
-     .box2{
-         display:block;
-         background-color: white;
-         align-content: center;
      }
      .box3{
          background-color:  white;
          align-content: center;
      }
      .box4{
-         background-color:white;
-         align-content: center;
+        background-color:  white;
+        align-content: center;
      }
      #row1, #row2{
          padding:13px; 
@@ -147,34 +145,30 @@
 	    border-color: #93b5c6;
 	    border-width: 7px;
      }
-     .map{
-        display:block;
-        width:100%;
-        border-style: solid;
-        border-color: #93b5c6;
-        border-width: 7px;
-     }
-     .left-column, .right-column{
+    .map{
+        display:none;
+    }
+    .left-column, .right-column{
          width:48%;
          flex: 1 0 15em;
          padding:10px;
        }
-       main picture.toppic{
+    main picture.toppic{
         width: 100%;
         margin: 0;
     }
     main picture.toppic img{
-        width:100%;
+        width: 100%;
     }
-    .herodiv {
+     .herodiv {
         margin: 10px auto;
         position: relative;
    }
      .weathersummary{
          background-color: white;
          position: absolute;
-         margin-top: 95px;
-         margin-left: 50px;
+         top: 20px;
+         left: 50px;
          background: radial-gradient(white, #93b5c6);
          border: 1px solid white;
          padding: 1.5rem;
@@ -193,43 +187,39 @@
          vertical-align:middle;
          border:solid thick #f39237; 
      }
-     #forecast h3 {
-        border-bottom: solid #fceb4e 2px;
-        margin: 0;
-        color: black;
-        background-color:  #93b5c6;
-        padding: 5px;
+     .responsive li {
+        display: block;
     }
-    #second {
-        display:block;
-        background-color:#93b5c6;
-        align-content: center;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;;
-        border-top: solid black 3px;
-        margin: 2px;
-        padding: 10px;
-    }
-    #forecast div {
-        border: solid #fceb4e 3.5px;
-        margin: 12px;
-    }
-
-    #forecast img {
-        margin: 5px;
-    }
-    #forecast section {
-        padding-bottom: 4px;
-    }
-    #forecast-title {
-        color: #174d73;
-        font-size: 2em;
-        margin-bottom: 5px;
-    }
-    #credit {
-        color:black;
+    #forecast {
+        display: flex;
+        justify-content: center;
+     }
+    
+     #forecast div {
         margin: 10px;
+     }
+    
+     #forecast p {
+        padding-right: 10px;
+        padding-left: 10px;
+     }
+    h3 {
+        font-size: 1em;
+        letter-spacing: .1em;
+     }
+     .list h3 {
+        color: white;
+        font-size: 2.2em;
+        font-family: 'Montserrat', sans-serif;
+     }
+     .list {
         text-align: center;
-        font-size: 14px;
-    }
-} 
+        justify-content: center;
+        border: white dotted 8px;
+     }
+     .list li{
+       list-style-type: none;
+       padding:5px;
+       font-family: 'Montserrat', sans-serif;
+     }
+}

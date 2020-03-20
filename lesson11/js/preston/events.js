@@ -10,7 +10,6 @@ fetch(requestURL)
     for (let i = 0; i < towns.length; i++) {
       if (towns[i].name == "Preston")
       
-        let card = document.createElement('section');
         let list = document.createElement('ul');
   
         item.textContent = "Preston Events: " + towns[i].events;

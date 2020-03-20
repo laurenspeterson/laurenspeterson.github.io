@@ -8,7 +8,7 @@ fetch(requestURL)
     console.table(jsonObject);
     const towns = jsonObject['towns']; 
 for (let e = 0; e < towns.length; e++ ) {
-      if (towns[e].name == "Preston") {
+      if (towns[e].name == "Fish Haven") {
             let list = document.createElement('ul'); 
 for (let y = 0; y < towns[e].events.length; y++) {
           let item = document.createElement('li');

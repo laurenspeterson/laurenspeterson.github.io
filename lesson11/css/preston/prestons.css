@@ -213,19 +213,19 @@
         font-size: 1em;
         letter-spacing: .1em;
      }
-     div.list {
-        margin: 0 auto;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2rem;
-        align-content: center;
-      }
-      
-    div.list ul{
-        justify-items: center; 
-        width: 35%;
-        margin: 0.25rem;
-        border: 1px solid white;
-        background-color:#93b5c6;
-      }
-      
+
+     .list h3 {
+        color: white;
+        margin-left: 35px;
+        font-size: 2em;
+     }
+     .list {
+        text-align: center;
+        border-top: #f39237 solid 2px;
+     }
+    
+     .list li{
+       list-style-type: none;
+       font-family: 'Montserrat', sans-serif;
+     }
 }

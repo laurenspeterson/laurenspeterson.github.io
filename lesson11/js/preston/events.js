@@ -18,4 +18,4 @@ fetch(requestURL)
         list.appendChild(item);
        
        document.querySelector('div.list').appendChild(list);
-   } } );
+   } } } );

@@ -7,16 +7,12 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);
     const towns = jsonObject['towns']; 
-
-    for (let i = 0; i < towns.length; i++ ) {
-      if (towns[i].name == "Preston") {
-        
-        let list = document.createElement('ul'); 
-
-        for (let y = 0; y < towns[i].events.length; y++) {
+for (let e = 0; e < towns.length; e++ ) {
+      if (towns[e].name == "Preston") {
+            let list = document.createElement('ul'); 
+for (let y = 0; y < towns[e].events.length; y++) {
           let item = document.createElement('li');
-          item.textContent = towns[i].events[y];
-          list.appendChild(item);
-        } 
+          item.textContent = 'Events in Preston' + towns[e].events[y];
+          list.appendChild(item); } 
 document.querySelector('div.list').appendChild(list); 
       } } });

@@ -1,0 +1,88 @@
+/* navigation starts here */
+.menu {
+    list-style: none;
+  }
+.menu li {
+    display: inline;
+    margin-right: 20px;
+  }
+.menu li a {
+    text-decoration: none;
+    font-family: Tahoma;
+    padding: 8px;
+    color:#092818;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+  }
+.menu .active {
+    background-color: #092818;
+    color: white;
+  }
+  /* navigation ends here */ 
+  
+  /* weather summary needs changed! */
+  .weathersummary{
+    background-color: white;
+    position: absolute;
+    background: #092818;
+    color:white;
+    border: 5px solid #9B9254;
+    padding: 1.5rem;
+    opacity: .8;
+    font-family: 'lato', sans-serif;
+}
+html{ 
+    background-color: #E8E2BF;
+    font-family: 'lato', sans-serif;
+    padding:0px;
+}
+.logo{
+    width:250px;
+    margin-left:50px;
+    float:left;
+
+}
+nav{
+   text-align: center;
+}
+h1{
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 700;
+    color:#092818;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:#603813;
+}
+.list{
+    color:#092818;
+    border: 5px solid #9B9254;
+}
+.activity{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.subactivity{
+    font-size: 1.5rem;
+}
+p{
+    color:#092818;
+    font-size: 1.5rem;
+}
+.rivpic{
+    width:450px;
+    border: 5px solid #9B9254;
+}
+#left{
+    float: left;
+    width:48%;
+}
+#right{
+    float: right;
+    width:48%;
+}

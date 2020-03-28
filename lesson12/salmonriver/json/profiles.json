@@ -1,0 +1,44 @@
+{
+    "guides":[
+            {
+            "name": "Ruby",
+            "lastname": "Riverguide",
+            "certification": "Expert Rafter",
+            "age": "24 Years Old",
+            "experience":"20 Years of Experience on the Water",
+            "email": "rubyriverguide@gmail.com",
+            "description": "Ruby has grown up rafting and it is her biggest passion. Outside of being a River Guide, she has 2 dogs and loves spending her time outdoors. ",
+            "imageurl": "https://laurenspeterson.github.io/lesson12/salmonriver/images/rubyriverguide.jpg"
+            },
+            {
+            "name": "Cody",
+            "lastname": "Coldwater",
+            "certification": "Pro Kayaker",
+            "age": "25 Years Old",
+            "experience":"15 Years of Experience on the Water",
+            "email": "codycoldwater@gmail.com",
+            "description": "Cody has spends all of his free days on the water. He says nothing is more peaceful than relaxing that kayaking down a beautiful river. ",
+            "imageurl": "https://laurenspeterson.github.io/lesson12/salmonriver/images/codycoldwater.jpg"
+            },
+            {
+            "name": "Frankie",
+            "lastname": "Forester",
+            "certification": "Certified Fisherman",
+            "age": "28 Years Old",
+            "experience":"17 Years of Experience on the Water",
+            "email": "frankieforester@gmail.com",
+            "description": "Frankie has been fishing and spending time on the water since he was a young boy. Ourside of being a River Guide, he is a professional fisherman for his career. ",
+            "imageurl": "https://laurenspeterson.github.io/lesson12/salmonriver/images/frankieforester.jpg"
+            },
+            {
+            "name": "Wayne",
+            "lastname": "Whitewaters",
+            "certification": "Water Wizard",
+            "age": "30 Years Old",
+            "experience":"20 Years of Experience on the Water",
+            "email": "waynewhitewaters@gmail.com",
+            "description": "Wayne says, if you love what you do, you'll never work a day in your life. He does exactly that. Every single day, Wayne is on the water! He has mastered any type of water transportation and has a passion for showing others his ways. ",
+            "imageurl": "https://laurenspeterson.github.io/lesson12/salmonriver/images/waynewhitewaters.jpg"
+            }
+    ]
+}

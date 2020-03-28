@@ -22,17 +22,26 @@
     color: white;
   }
   /* navigation ends here */ 
-  
-  /* weather summary needs changed! */
-  .weathersummary{
+
+.weathersummary{
     background-color: white;
-    position: absolute;
+    width:230px;
+    top: 20px;
+    left: 50px;
     background: #092818;
     color:white;
-    border: 5px solid #9B9254;
+    font-weight: 700;
+    border: 10px solid #9B9254;
     padding: 1.5rem;
+    box-shadow: 0 0 30px white;
     opacity: .8;
-    font-family: 'lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    }
+header{
+    margin-top: 20px;
+}
+body{
+    margin:50px;
 }
 html{ 
     background-color: #E8E2BF;
@@ -58,10 +67,14 @@ h2{
     font-size: 2.5rem;
     font-weight: 700;
     color:#603813;
+    text-align: left;
 }
 .list{
     color:#092818;
     border: 5px solid #9B9254;
+    padding-left:60px;
+    padding-top:30px;
+    padding-bottom:30px;
 }
 .activity{
     font-size: 2rem;
@@ -71,8 +84,9 @@ h2{
     font-size: 1.5rem;
 }
 p{
-    color:#092818;
     font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
 }
 .rivpic{
     width:450px;
@@ -85,4 +99,12 @@ p{
 #right{
     float: right;
     width:48%;
+}
+.rows{
+    padding:13px; 
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+    color:#092818;
 }

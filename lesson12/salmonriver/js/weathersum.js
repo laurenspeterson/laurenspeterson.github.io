@@ -1,4 +1,4 @@
-const summAPI = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=c7841a054ca549ed8fb8e9246b43f93e&units=imperial';
+const summAPI = 'https://api.openweathermap.org/data/2.5/weather?id=5601299&APPID=c7841a054ca549ed8fb8e9246b43f93e&units=imperial';
 
 fetch(summAPI)
   .then((response) => response.json())

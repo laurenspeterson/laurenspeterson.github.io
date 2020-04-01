@@ -50,7 +50,7 @@ html{
 }
 .logo{
     width:250px;
-    margin-left:50px;
+    margin-left:40px;
     float:left;
 
 }
@@ -89,16 +89,16 @@ p{
     text-align: center;
 }
 .rivpic{
-    width:450px;
+    width:350px;
     border: 5px solid #9B9254;
 }
 #left{
     float: left;
-    width:48%;
+    width:44%;
 }
 #right{
     float: right;
-    width:48%;
+    width:44%;
 }
 .rows{
     padding:13px; 
@@ -108,3 +108,37 @@ p{
     align-items: center;
     color:#092818;
 }
+/*guides css*/
+.cards {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center; 
+    align-content: center;
+}
+  
+ div.cards section {
+    display: grid; 
+    justify-items: center; 
+    width: 95%;
+    margin: 0.25rem;
+    border: 1px solid rgb(78, 26, 31);
+    background-color: rgb(192, 160, 159);
+  }
+  .cards h2 {
+    font-size:2em;
+    color: rgb(78, 22, 27);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .cards p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.25rem;
+    margin: 5px;
+    color: rgb(31, 7, 9);
+  }

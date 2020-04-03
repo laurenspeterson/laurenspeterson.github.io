@@ -17,7 +17,7 @@
 <main>
     <header> 
         <h1>Salmon River Adventures</h1>
-        <img class="logo" src="images/salmonlogo.jpg" alt="Salmon River Adventures Logo">
+        <img class="logo" src="images/salmonlogo.png" alt="Salmon River Adventures Logo">
         <nav>
             <ul class="menu" id="menu">
               <li><a href="https://laurenspeterson.github.io/lesson12/salmonriver/index.html" target="_blank">Home</a></li>
@@ -31,10 +31,80 @@
 <!-- end copy section-->
 
     <body>
+      <h2>Make A Reservation</h2>
+      <div class="table">
+        <h3>Activities</h3>
+        <table>
+           <tr>
+             <th>Kayaking Option 1</th>
+             <th>Kayaking Option 2</th>
+             <th>White Water Rafting</th>
+             <th>Fisherman's Pack</th>
+           </tr>
+           <tr>
+             <td>1 Day Excursion (9am-6pm)</td>
+             <td>3 Day Excursion (camping)</td>
+             <td>1 Day Excursion (10am-4pm)</td>
+             <td>1 Day Excursion (6am-4pm)</td>
+           </tr>
+           <tr>
+             <td>Skill Level: Beginner</td>
+             <td>Skill Level: Beginner</td>
+             <td>Advanced and Intermediate Options</td>
+              <td>Skill Level: Beginner</td>
+           </tr>
+           <tr>
+             <td>$50 Per Person</td>
+              <td>$400 Per Person</td>
+             <td>$50 Per Person</td>
+             <td>$65 Per Person</td>
+           </tr>
+           <tr>
+             <td>Includes 3 Meals</td>
+             <td>Includes All Meals</td>
+             <td>Includes Lunch</td>
+             <td>Includes Breakfast and Lunch</td>
+           </tr>
+           <tr>
+             <td>Includes All Equipment</td>
+             <td>Includes All Camping And Kayaking Equipment</td>
+             <td>Includes All Equipment</td>
+             <td>Includes All Fishing and Kayaking Equipment</td>
+            </tr>
+          </table>
+      </div>
+      <div>
+        <form class="resform" method="get" action="submit.html">
+            
+          <fieldset>
+                  <legend>Make a Reservation Here!</legend>
+                  <label class="qs">Full Name* <input type="text" name="fname" pattern="[A-Za-z]{5,}" required><span class="min"> ( 5 Letter Minnimum ) </span></label>
+                  <label class="qs">Email* <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                  <label class="qs">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                  <label class="qs">Start Date* <input type="date" name="startDate" required></label>
+                  <label class="sbs">Adventure Selection <input list="adventureType" name="adventureType">
+                  <datalist id="adventureType"> 
+                    <option value="Kayaking Option 1">
+                    <option value="Kayaking Option 2">
+                    <option value="White Water - Advanced">
+                    <option value="White Water - Intermediate">
+                    <option value="Fisherman's Pack">
+                  </datalist>
+                  <label class="qs" for="comments">Comments or Questions</label>
+                    <textarea id="comments" rows="4" cols="50">
+
+                    </textarea>
+                  <br>
+                  <br>
+                  <br>
+                      <input type="submit" value="Submit Reservation" class="submitBtn">
+
+                  </fieldset>
+
+          </form>
+      </div>
 
     </body>
-
-
     <footer>
 
     </footer>

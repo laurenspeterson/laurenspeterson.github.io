@@ -1,5 +1,5 @@
 const requestURL = 'https://laurenspeterson.github.io/lesson12/salmonriver/json/profiles.json';
-fetch(requestURl)
+fetch(requestURL)
     .then(function (response){
         return response.json();
     })

@@ -22,7 +22,12 @@
     color: white;
 }
   /* navigation ends here */ 
-
+.homeheader{
+    position:relative;
+    top:5px;
+    left:6%;
+    padding-bottom:30px;
+}
 .weathersummary{
     background-color: white;
     width:230px;
@@ -55,11 +60,10 @@ html{
     padding:0px;
 }
 .logo{
-    width:250px;
-    margin-left:30px;
+    width:150px;
     float:left;
-    padding:20px;
-    position:absolute;
+    padding:10px;
+    position:relative;
 
 }
 nav{
@@ -108,7 +112,7 @@ p{
 }
 #left{
     float: left;
-    width:40%;
+    width:44%;
 }
 #right{
     float: right;
@@ -184,10 +188,11 @@ input[type=submit]:hover {
 .container {
     border-radius: 5px;
     background-color: #9B9254;
-    padding: 20px;
+    padding: 10px;
     font-size: 1.3rem;
-    width:40%;
-    margin-top:180px;
+    width:90%;
+    margin-top:3%;
+    justify-content: center;
 }
 .map{
     padding:20px;
@@ -200,19 +205,20 @@ input[type=submit]:hover {
     font-size: 1.3rem;
     text-align: center;
     margin-right:60px;
+    padding:10px;
 }
 .contactpic{
-      width:450px;
-      float:right;
-     margin-right:10%;
+      display:none;
 }
-
+iframe{
+    width:100%;
+    justify-content: center;
+}
   /* reservations page */
 table {
     font-family: 'lato', sans-serif;
     border-collapse: collapse;
-    width: 50%;
-    float:right;
+    width: 100%;
 }
   
 td, th {
@@ -236,6 +242,7 @@ tr:nth-child(odd) {
 .table h3{
     text-align: right;
 }
+
   /* reservations form */
 form fieldset{
     margin:2rem 0;
@@ -263,11 +270,10 @@ form label.qs input, form label.top select{
     border-radius: 4px;
     padding: .75rem;
     color:black;
-    width:100%;
+    width:90%;
     max-width: 20rem;
     background-color:white(0,0,0,0.1);
 }
-
 form label.sbs {
     display:block;
     padding: 2rem 0;
@@ -296,15 +302,15 @@ form label textarea{
 
 }   
 .resform{
-    width: 40%;
+    width:100%;
     float:left;
     margin-top:60px; 
 }
 .respic{
-    width:650px;
+    width:100%;
     border: 5px solid #9B9254;
-    margin-top:20px;
-    margin-left:30px;
+    margin-top:10px;
+    margin-left:10px;
     margin-bottom:20px;
     margin-right:10px;
 }

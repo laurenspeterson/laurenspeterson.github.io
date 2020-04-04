@@ -13,7 +13,6 @@
 <link href="css/medium.css" rel="stylesheet">
 <link href="css/large.css" rel="stylesheet">
 </head>
-
 <main>
     <header> 
         <h1>Salmon River Adventures</h1>
@@ -33,7 +32,7 @@
     <body>
       <h2>Make A Reservation</h2>
       <div class="table">
-        <h3>Activities</h3>
+        <h3>All of Your Adventure Options </h3>
         <table>
            <tr>
              <th>Kayaking Option 1</th>
@@ -74,11 +73,11 @@
           </table>
       </div>
       <div>
-        <form class="resform" method="get" action="submit.html">
+          <form class="resform" method="get" action="submit.html">
             
-          <fieldset>
+            <fieldset>
                   <legend>Make a Reservation Here!</legend>
-                  <label class="qs">Full Name* <input type="text" name="fname" pattern="[A-Za-z]{5,}" required><span class="min"> ( 5 Letter Minnimum ) </span></label>
+                  <label class="qs" for="fname">Full name:</label><input type="text" id="fname" name="fname"><br><br>
                   <label class="qs">Email* <input type="email" name="email" placeholder="someone@gmail.com"></label>
                   <label class="qs">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
                   <label class="qs">Start Date* <input type="date" name="startDate" required></label>
@@ -99,14 +98,18 @@
                   <br>
                       <input type="submit" value="Submit Reservation" class="submitBtn">
 
-                  </fieldset>
-
+            </fieldset>
           </form>
+      </div>
+      <div>
+          <img class="respic" src="images/riverimage7.jpg" alt="image of a river">
       </div>
 
     </body>
     <footer>
-
-    </footer>
+      <p>View My Refrences <a href="laurenspeterson.github.io/lesson12/salmonriver/refrences.html">Here!</p>
+      <p class="copyright-words">&copy; 2020 Salmon River Adventures - Lauren Peterson</p>
+      <br>
+  </footer>
 </main>
 </html>
